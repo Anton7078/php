@@ -1,6 +1,6 @@
 <?php
 require_once 'base.php';
-$id = $_GET['id'];
+$id = $_POST['id'];
 //var_dump("$id");
 if ($id && is_numeric($id)) {
     mysqli_query($link, 'update images set view = view + 1 where id='.$id);
