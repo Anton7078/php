@@ -1,0 +1,40 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+textarea[name=review] {
+    display: inline-block;
+    height: 100px;
+    margin-top: 2px;
+}
+textarea[name=review]::placeholder {
+    color: gray;
+    height: 200px;
+}
+
+.form-review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+}
+
+input[name=result] {
+    margin-top: 10px;
+}
+
+.review-content {
+    border: 1px solid black;
+    margin: 5px;
+    width: 200px;
+}
+.content-form {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+.review-content-number{
+margin-left: 10px;
+}
